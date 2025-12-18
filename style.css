@@ -165,7 +165,9 @@ iframe {
     background: var(--surface);
     border-bottom: 1px solid rgba(255, 255, 255, 0.06);
     transform: translateY(-120%);
-    transition: transform 0.3s ease;
+    visibility: hidden;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
   }
   .primary-nav ul {
     display: grid;
@@ -174,6 +176,8 @@ iframe {
   }
   .nav-open .primary-nav {
     transform: translateY(0);
+    visibility: visible;
+    opacity: 1;
   }
 }
 
