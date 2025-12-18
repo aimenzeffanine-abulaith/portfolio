@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>أيمن زفانين | مطور برمجيات متكامل</title>
+    <meta
+      name="description"
+      content="محفظة أعمال مطور برمجيات متكامل (Full Stack) متخصص في تطوير الواجهات الأمامية والخدمات الخلفية عالية الأداء باستخدام JavaScript/TypeScript، React، Node.js، وقواعد بيانات SQL/NoSQL."
+    />
+    <meta
+      name="keywords"
+      content="مطوّر, مطور, برمجيات, واجهات أمامية, خلفية, Full Stack, جافاسكريبت, تايب سكريبت, React, Node.js, قواعد بيانات, PostgreSQL, MongoDB, API"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="أيمن زفانين — مطور برمجيات متكامل" />
+    <meta
+      property="og:description"
+      content="أبني تطبيقات ويب حديثة قابلة للتوسع بأفضل الممارسات للواجهات والخلفيات مع اهتمام بالأداء وقابلية الصيانة."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/og-image.svg" />
+    <link rel="icon" href="assets/og-image.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://www.youtube.com" />
+    <link rel="stylesheet" href="style.css" />
+    <!--
+      تعليمات النشر السريعة:
+      - GitHub Pages: ادفع هذه الملفات إلى فرع رئيسي عام ثم فعّل Pages من إعدادات المستودع.
+      - Netlify: اربط المستودع أو اسحب المجلد مباشرة، وسيتم النشر تلقائيًا.
+      - Vercel: اربط المستودع وحدد مشروع Static، وسيتم البناء والنشر آليًا.
+      جميع الروابط والملفات نسبية وجاهزة للنشر دون إعداد إضافي.
+    -->
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a class="brand" href="#hero" aria-label="العودة إلى البداية">
+          <img src="assets/logo.png" alt="الصورة الشخصية" />
+        </a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="فتح أو إغلاق قائمة التنقل"
+        >
+          <span class="burger" aria-hidden="true"></span>
+        </button>
+        <nav id="primary-nav" class="primary-nav" aria-label="التنقل الرئيسي">
+          <ul>
+            <li><a href="#projects">الأعمال</a></li>
+            <li><a href="#certificates">الشهادات</a></li>
+            <li><a href="#contact">تواصل</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="hero">
+      <section class="hero section reveal" aria-label="قسم المقدمة">
+        <div class="container hero-grid">
+          <div class="hero-text">
+            <h1>مرحبًا، أنا <span class="highlight">أيمن زفانين</span></h1>
+            <p>
+              مطور برمجيات متكامل أُنشئ واجهات أمامية حديثة وخدمات خلفية موثوقة
+              قابلة للتوسع. أستخدم JavaScript/TypeScript، React، Node.js،
+              وأُدير البيانات عبر قواعد SQL/NoSQL مع تركيز قوي على الأداء
+              وتجربة المستخدم.
+            </p>
+            <div class="cta">
+              <a href="#projects" class="btn primary">مشاهدة أعمالي</a>
+              <a href="#contact" class="btn secondary">تواصل معي</a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="dev-card">
+              <svg viewBox="0 0 400 240" class="hero-svg" role="img" aria-label="رمز مطور">
+                <defs>
+                  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#6C5CE7" />
+                    <stop offset="100%" stop-color="#00C2FF" />
+                  </linearGradient>
+                </defs>
+                <rect x="10" y="10" width="380" height="220" rx="12" fill="url(#grad)" opacity="0.15" />
+                <g fill="none" stroke="#6C5CE7" stroke-width="2">
+                  <rect x="30" y="30" width="160" height="90" rx="8" />
+                  <rect x="210" y="30" width="160" height="90" rx="8" />
+                  <rect x="30" y="130" width="160" height="80" rx="8" />
+                  <rect x="210" y="130" width="160" height="80" rx="8" />
+                </g>
+                <g stroke="#00C2FF" stroke-width="3">
+                  <path d="M90 75 l25 -20 l-25 -20" />
+                  <path d="M270 75 l25 -20 l-25 -20" />
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects" aria-label="قسم الأعمال">
+        <div class="container">
+          <h2>أعمال مختارة</h2>
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <div class="media">
+                <iframe
+                    src="https://www.youtube.com/embed/ADlTlHOl8vU"
+                    title="معاينة فيديو المشروع"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+
+              </div>
+              <div class="content">
+                <h3>طبيبي</h3>
+                <p>
+                  تطبيق يجمع بين المرضى و الأطباء.
+                </p>
+                <div class="actions">
+                  <a
+                    class="btn outline"
+                    href="https://github.com/aimenzeffanine-abulaith/my-doctor.git"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="المستودع على GitHub"
+                    >المستودع على GitHub</a
+                  >
+                  <a
+                    class="btn secondary"
+                    href="https://youtu.be/ADlTlHOl8vU?si=WXeBWEg7p5UqK7FX" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="مشاهدة على YouTube"
+                    >مشاهدة على YouTube</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="media">
+                <iframe
+                    src="https://www.youtube.com/embed/ThXjUrBHsao"
+                    title="معاينة فيديو المشروع"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+
+              </div>
+              <div class="content">
+                <h3>وصفاتي</h3>
+                <p>
+                  تطبيق تواصل اجتماعي خاص بالوصفات.
+                </p>
+                <div class="actions">
+                  <a
+                    class="btn outline"
+                    href="https://github.com/aimenzeffanine-abulaith"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="المستودع على GitHub"
+                    >المستودع على GitHub</a
+                  >
+                  <a
+                    class="btn secondary"
+                    href="https://youtu.be/ThXjUrBHsao?si=jm7vjnovEip9MBFo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="مشاهدة على YouTube"
+                    >مشاهدة على YouTube</a
+                  >
+                </div>
+              </div>
+            </article>
+
+        </div>
+        </div>
+      </section>
+
+      <section class="certificates section" id="certificates" aria-label="قسم الشهادات">
+        <div class="container">
+          <h2>الشهادات</h2>
+          <ul class="cert-list">
+            <li class="cert-item reveal">
+              <h3>تطوير واجهات المستخدم</h3>
+              <p class="meta">أكاديمية حسوب</p>
+              <a
+                    class="btn secondary"
+                    href="https://academy.hsoub.com/certificate/LUBSGWTLP0WP83CX4IGP6ES8B.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="شهادة أكاديمية حسوب"
+                    >شهادة أكاديمية حسوب</a
+                  >
+            </li>
+            <li class="cert-item reveal">
+              <h3>تطوير التطبيقات باستخدام لغة JavaScript</h3>
+              <p class="meta">أكاديمية حسوب</p>
+              <a
+                    class="btn secondary"
+                    href="https://academy.hsoub.com/certificate/7V6RN8IEDF53EVPTS03MGE8H7.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="شهادة أكاديمية حسوب"
+                    >شهادة أكاديمية حسوب</a
+                  >
+            </li>
+            
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-label="قسم التواصل">
+        <div class="container">
+          <h2>تواصل معي</h2>
+          <p>تابعني عبر الشبكات الاجتماعية أو راسلني مباشرة.</p>
+          <div class="socials">
+            <a
+              class="social"
+              href="https://www.facebook.com/profile.php?id=61585497680586"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              title="Facebook"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M22 12.06C22 6.49 17.52 2 12 2S2 6.49 2 12.06c0 4.99 3.66 9.13 8.44 9.94v-7.03H8.1v-2.91h2.34V9.41c0-2.3 1.37-3.57 3.47-3.57.99 0 2.03.18 2.03.18v2.25h-1.14c-1.12 0-1.47.7-1.47 1.42v1.71h2.5l-.4 2.91h-2.1v7.03C18.34 21.19 22 17.05 22 12.06Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="social"
+              href="https://www.instagram.com/aimenzeffanine_abulaith/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              title="Instagram"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm6-1a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="social"
+              href="https://x.com/a_zeffanine"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="X (Twitter)"
+              title="X (Twitter)"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M15.73 3H19l-6.56 7.49L20.5 21h-4.77l-5.06-6.02L5.1 21H2l7.21-8.24L3.5 3h4.86l4.41 5.25L15.73 3Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="social"
+              href="https://www.linkedin.com/in/%D8%A3%D8%A8%D9%88-%D9%84%D9%8A%D8%AB-undefined-4a7a8139a/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              title="LinkedIn"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 8.98h4v12H3v-12ZM9 8.98h3.83v1.64h.05c.53-1 1.82-2.06 3.75-2.06 4.01 0 4.75 2.64 4.75 6.07v6.35h-4v-5.64c0-1.35-.03-3.08-1.88-3.08-1.88 0-2.17 1.46-2.17 2.98v5.74H9v-12Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+
+            <a
+              class="social"
+              href="https://github.com/aimenzeffanine-abulaith"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              title="GitHub"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.8-.25.8-.57v-2.02c-3.2.7-3.87-1.37-3.87-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.78 1.22 1.78 1.22 1.04 1.78 2.74 1.27 3.4.97.11-.77.41-1.27.74-1.56-2.56-.29-5.25-1.28-5.25-5.71 0-1.26.45-2.28 1.2-3.08-.12-.29-.52-1.46.11-3.05 0 0 .98-.31 3.2 1.18a11.01 11.01 0 0 1 5.83 0c2.22-1.49 3.2-1.18 3.2-1.18.63 1.59.23 2.76.11 3.05.75.8 1.2 1.82 1.2 3.08 0 4.44-2.7 5.41-5.27 5.7.42.36.79 1.07.79 2.16v3.2c0 .32.21.69.81.57A11.51 11.51 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small>© <span id="year"></span> أيمن زفانين — جميع الحقوق محفوظة</small>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+  </html>
+

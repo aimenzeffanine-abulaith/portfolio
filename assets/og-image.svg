@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6C5CE7"/>
+      <stop offset="100%" stop-color="#00C2FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0f1224"/>
+  <rect x="40" y="40" width="1120" height="550" rx="24" fill="#151836" stroke="rgba(255,255,255,0.08)" />
+  <g transform="translate(120,120)">
+    <text x="0" y="0" font-family="Segoe UI, Roboto, Arial" font-size="64" fill="#E6E7F0">أيمن زفاني</text>
+    <text x="0" y="70" font-family="Segoe UI, Roboto, Arial" font-size="40" fill="#9AA0B4">مطور برمجيات متكامل (Full Stack)</text>
+  </g>
+  <g transform="translate(120,250)" fill="none" stroke="url(#g1)" stroke-width="10">
+    <rect x="0" y="0" width="300" height="160" rx="22"/>
+    <rect x="340" y="0" width="300" height="160" rx="22"/>
+    <rect x="680" y="0" width="300" height="160" rx="22"/>
+  </g>
+  <g transform="translate(120,450)">
+    <text x="0" y="0" font-family="Segoe UI, Roboto, Arial" font-size="28" fill="#9AA0B4">
+      تطبيقات ويب حديثة • أداء عالٍ • قابلية التوسع
+    </text>
+  </g>
+</svg>
+
